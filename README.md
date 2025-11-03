@@ -70,7 +70,7 @@ export default {
   content: [
     './src/**/*.{js,ts,jsx,tsx}',
     // Important: Include the component library's dist folder
-    './node_modules/@jim850221/react-components-starter/dist/**/*.js',
+    './node_modules/@johnny850221/react-components-starter/dist/**/*.js',
   ],
   theme: {
     extend: {
@@ -106,7 +106,7 @@ These colors extend (not replace) Tailwind's default colors.
 ```js
 export default {
   presets: [
-    require('@jim850221/react-components-starter/tailwind.config')
+    require('@johnny850221/react-components-starter/tailwind.config')
   ],
   theme: {
     extend: {

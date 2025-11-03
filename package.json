@@ -15,7 +15,7 @@
   "author": "jim850221@gmail.com",
   "files": [
     "dist",
-    "src/styles.css",
+    "src/theme.css",
     "tailwind.config.ts"
   ],
   "main": "./dist/index.js",
@@ -30,12 +30,12 @@
       "import": "./dist/ui/index.js",
       "types": "./dist/ui/index.d.ts"
     },
-    "./preset": {
-      "import": "./dist/presets/index.js",
-      "types": "./dist/presets/index.d.ts",
-      "require": "./dist/presets/index.cjs"
+    "./tailwind": {
+      "import": "./dist/tailwind/index.js",
+      "types": "./dist/tailwind/index.d.ts",
+      "require": "./dist/tailwind/index.cjs"
     },
-    "./styles.css": "./src/styles.css"
+    "./theme.css": "./src/theme.css"
   },
   "publishConfig": {
     "access": "public"
