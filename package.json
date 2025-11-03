@@ -1,6 +1,6 @@
 {
   "name": "@johnny850221/react-components-starter",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A starter for creating a React component library.",
   "type": "module",
   "license": "MIT",
@@ -23,15 +23,26 @@
   "types": "./dist/index.d.ts",
   "exports": {
     "./ui": {
+      "types": "./dist/ui/index.d.ts",
       "import": "./dist/ui/index.js",
-      "types": "./dist/ui/index.d.ts"
+      "require": "./dist/ui/index.cjs"
     },
     "./tailwind": {
-      "import": "./dist/tailwind/index.js",
       "types": "./dist/tailwind/index.d.ts",
+      "import": "./dist/tailwind/index.js",
       "require": "./dist/tailwind/index.cjs"
     },
     "./theme.css": "./src/theme.css"
+  },
+  "typesVersions": {
+    "*": {
+      "ui": [
+        "./dist/ui/index.d.ts"
+      ],
+      "tailwind": [
+        "./dist/tailwind/index.d.ts"
+      ]
+    }
   },
   "publishConfig": {
     "access": "public"
