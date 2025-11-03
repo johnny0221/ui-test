@@ -1,6 +1,6 @@
 {
   "name": "@johnny850221/react-components-starter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A starter for creating a React component library.",
   "type": "module",
   "license": "MIT",
@@ -22,10 +22,6 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
     "./ui": {
       "import": "./dist/ui/index.js",
       "types": "./dist/ui/index.d.ts"
