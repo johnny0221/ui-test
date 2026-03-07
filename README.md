@@ -4,34 +4,40 @@ A React component library built with Tailwind CSS and tailwind-variants.
 
 ## Development
 
+- Prerequisite (Node.js 18+ with Corepack, pnpm 10.30.3):
+
+```bash
+corepack enable
+```
+
 - Install dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 - Run the playground:
 
 ```bash
-npm run play
+pnpm play
 ```
 
 - Run the unit tests:
 
 ```bash
-npm run test
+pnpm test
 ```
 
 - Build the library:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 - Run Storybook:
 
 ```bash
-npm run storybook
+pnpm storybook
 ```
 
 ## Usage in Your Project
@@ -39,9 +45,7 @@ npm run storybook
 ### Installation
 
 ```bash
-npm install @jim850221/react-components-starter
-# or
-yarn add @jim850221/react-components-starter
+pnpm add @jim850221/react-components-starter
 ```
 
 
